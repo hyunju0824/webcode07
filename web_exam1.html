@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07-과제1-테이블시간표</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 800px;
+        
+        }
+        td{
+            border: 1px solid seagreen;
+            text-align: center;
+            padding: 0px 45px;
+        }
+        th{
+            border: 1px solid lightblue;
+            background-color: seagreen;
+        }
+        td.left{
+            border-left: none;
+        }
+        .hi{
+            color: white;
+        }
+        td.right{
+            border-right: none;
+            padding-right: 60px;  
+        }
+        td:hover{ /*유사클래스*/
+            background-color: #0055cc;
+            color: white;
+        }
+        #js{
+            padding: 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>웹스타일 가이드</h1>
+    <li>테이블 시간표</li>
+    <table>
+    <tr>
+        <th class="left"></th>
+        <th class="hi">월</th>
+        <th class="hi">화</th>
+        <th class="hi">수</th>
+        <th class="hi">목</th>
+        <th class="right hi">금</th>
+    </tr>
+    <tr>
+        <td class="left">09:00</td>
+        <td>포토샵</td>
+        <td>CSS3</td>
+        <td></td>
+        <td>포토샵</td>
+        <td class="right"></td>
+    </tr><tr>
+        <td class="left">10:00</td>
+        <td></td>
+        <td>CSS3</td>
+        <td id="js">자바스크립트</td>
+        <td>포토샵</td>
+        <td class="right"></td>
+    </tr><tr>
+        <td class="left">11:00</td>
+        <td></td>
+        <td></td>
+        <td id="js">자바스크립트</td>
+        <td></td>
+        <td class="right"></td>
+    </tr><tr>
+        <td class="left">12:00</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+    </tr><tr>
+        <td class="left">점심</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="right"></td>
+    </tr><tr>
+        <td class="left">13:00</td>
+        <td>CSS3</td>
+        <td id="js">자바스크립트</td>
+        <td>체력단련</td>
+        <td></td>
+        <td class="right"></td>
+    </tr>
+</table>
+</body>
+</html>
